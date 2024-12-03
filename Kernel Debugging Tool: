@@ -1,0 +1,10 @@
+Kernel Debugging Tool:
+Develop a kernel-level tool for debugging or tracking kernel activities. This could involve writing a kernel module that logs information on kernel events or debugging a particular process or resource.
+Project Idea: A kernel module that logs process information to a kernel log (e.g., log processes that exceed certain CPU thresholds).
+
+1. make 
+2. lsmod | grep Debugger
+3. sudo insmod Debugger-1.ko
+4. lsmod | grep Debugger
+5. sudo rmmod Debugger-1.ko 
+6. dmesg // To display logs in console 
